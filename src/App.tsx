@@ -384,7 +384,7 @@ const Hero = ({ onRegisterClick }: { onRegisterClick: () => void }) => {
         </motion.div>
       </div>
 
-      <div className="absolute bottom-10 left-0 w-full overflow-hidden whitespace-nowrap border-y border-neutral-800 py-4">
+      {/* <div className="absolute bottom-10 left-0 w-full overflow-hidden whitespace-nowrap border-y border-neutral-800 py-4">
         <div className="marquee-track flex gap-12">
           {[...Array(10)].map((_, i) => (
             <span key={i} className="text-4xl font-display uppercase tracking-tighter neon-multicolor">
@@ -392,7 +392,7 @@ const Hero = ({ onRegisterClick }: { onRegisterClick: () => void }) => {
             </span>
           ))}
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };
